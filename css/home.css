@@ -2,9 +2,6 @@
   size: 1440;
 }
 
-/* 112*2 === 224 */
-/* 1440 - 224 === 1216 */
-
 body {
   background-color: #838be3;
 }
@@ -18,6 +15,7 @@ body {
 .navigation {
   display: flex;
   justify-content: space-between;
+  height: 120px;
 }
 
 .navigation__buttons-group {
@@ -28,8 +26,21 @@ body {
   color: #ffffff;
 }
 
+.navigation__logo {
+  display: flex;
+  align-items: center;
+}
+
 .navigation__link {
 }
 
 .navigation__button {
+  font-family: 'Manrope-Semibold', sans-serif;
+  color: #ffffff;
+  background: none;
+  height: 60px;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  padding: 0px 37px;
+  /* 150*60 */
 }
