@@ -93,12 +93,16 @@ body {
 
 .navigation__figure {
   position: relative;
+}
+
+.navigation__figure-inner {
+  position: relative;
   overflow: hidden;
   width: 410px;
   height: 730px;
 }
 
-.navigation__figure img {
+.navigation__figure-inner img {
   position: absolute;
   left: -134px;
   top: 0;
