@@ -17,6 +17,7 @@ body {
   display: flex;
   justify-content: space-between;
   height: 120px;
+  margin-bottom: 19px;
 }
 
 .navigation__buttons-group {
@@ -63,9 +64,9 @@ body {
 }
 
 .navigation__main-text {
-  margin-top: 50px;
+  margin-top: 174px;
   align-self: flex-start;
-  margin-left: 132px;
+  margin-left: 106px;
   width: 520px;
 }
 
