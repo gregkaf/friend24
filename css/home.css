@@ -21,7 +21,7 @@ body {
 
 .navigation__buttons-group {
   display: flex;
-  gap: 41px;
+  gap: 77px;
   align-items: center;
   font-family: 'Manrope-Semibold', sans-serif;
   color: #ffffff;
@@ -55,4 +55,54 @@ body {
   padding: 0px 37px;
 }
 
+.navigation__intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 112px;
+}
+
+.navigation__main-text {
+  margin-top: 50px;
+  align-self: flex-start;
+  margin-left: 132px;
+  width: 520px;
+}
+
+.navigation__title {
+  font-family: 'Gatwick-Bold', sans-serif;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.navigation__sub-title {
+  font-family: 'Manrope-Medium', sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.navigation__figure {
+  position: relative;
+  overflow: hidden;
+  width: 410px;
+  height: 730px;
+}
+
+.navigation__figure img {
+  position: absolute;
+  left: -134px;
+  top: 0;
+}
+
+.navigation__slogan {
+}
 /* how-it */
