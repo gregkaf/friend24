@@ -20,6 +20,7 @@ main {
   position: absolute;
   top: -7px;
   left: -31px;
+  /* z-index: 1; */
 }
 
 .glow-1 {
@@ -47,6 +48,28 @@ main {
   position: absolute;
   top: -183px;
   left: -260px;
+}
+
+.girl-cloud {
+  position: absolute;
+  background: #ffffff;
+  top: 31px;
+  left: -73px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  font-family: 'Manrope-Regular', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  color: #5b63a7;
+  padding: 0 32px;
+  /* border-radius: 50px; */
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  /* z-index: 10; */
 }
 
 /* navigation  */
