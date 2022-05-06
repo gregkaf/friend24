@@ -156,7 +156,7 @@ main {
 }
 
 .slogan__text {
-  width: 590px;
+  width: 600px;
   font-family: 'Manrope-Regular';
   font-style: normal;
   font-weight: 500;
@@ -164,6 +164,7 @@ main {
   text-align: center;
   color: #ffffff;
   margin-bottom: 40px;
+  line-height: 35px;
 }
 
 /* how-it */

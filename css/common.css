@@ -16,10 +16,15 @@
 
 .button-contained {
   font-family: 'Manrope-Semibold', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
   color: #929cff;
   background: #ffffff;
-  height: 60px;
+  height: 76px;
+  width: 253px;
   border: 1px solid #ffffff;
   border-radius: 50px;
-  padding: 0px 37px;
+  padding: 0px 30px;
 }
