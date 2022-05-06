@@ -4,11 +4,12 @@
 
 body {
   background-color: #838be3;
+  overflow: hidden;
 }
 
-/* header {
-  position: relative;
-} */
+/* header { */
+/* position: relative; */
+/* } */
 
 main {
   position: relative;
@@ -18,6 +19,18 @@ main {
   position: absolute;
   top: -7px;
   left: -31px;
+}
+
+.glow-1 {
+  position: absolute;
+  top: -754px;
+  left: -37px;
+}
+
+.glow-2 {
+  position: absolute;
+  top: -754px;
+  left: 153px;
 }
 
 .star-suriken-contained-little-bold {
