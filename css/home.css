@@ -177,6 +177,7 @@ main {
 .slogan {
   padding-top: 45px;
   position: relative;
+  padding-bottom: 100px;
 }
 
 .slogan__wrapper {
@@ -203,3 +204,17 @@ main {
 }
 
 /* how-it */
+.how-it {
+  padding-top: 77px;
+}
+.how-it__inner {
+  display: flex;
+  justify-content: center;
+}
+
+.big-circle {
+  height: 856px;
+  width: 856px;
+  background: #ffffff;
+  border-radius: 50%;
+}
