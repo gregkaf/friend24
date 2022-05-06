@@ -132,6 +132,12 @@ main {
   left: -440px;
   z-index: 2;
 }
+.glow-4 {
+  position: absolute;
+  top: -171px;
+  left: 160px;
+  z-index: 3;
+}
 
 .slogan {
   padding-top: 45px;
