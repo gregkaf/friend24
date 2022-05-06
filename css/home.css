@@ -65,11 +65,23 @@ main {
   line-height: 32px;
   color: #5b63a7;
   padding: 0 32px;
-  /* border-radius: 50px; */
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
-  /* z-index: 10; */
+}
+
+.heart-one-up {
+  position: absolute;
+  bottom: 219px;
+  right: -27px;
+  height: 57px;
+  width: 100px;
+}
+
+.heart-one-up img {
+  position: absolute;
+  top: 0;
+  right: -31px;
 }
 
 /* navigation  */
