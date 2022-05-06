@@ -4,7 +4,8 @@
 
 body {
   background-color: #838be3;
-  overflow: hidden;
+  /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
 /* header { */
@@ -48,12 +49,6 @@ main {
   left: -260px;
 }
 
-/* .container {
-  padding: 0 112px;
-  max-width: 1440px;
-  margin: 0 auto;
-} */
-
 /* navigation  */
 .navigation {
   display: flex;
@@ -77,26 +72,6 @@ main {
 
 .navigation__link {
 }
-
-/* .button-outlined {
-  font-family: 'Manrope-Semibold', sans-serif;
-  color: #ffffff;
-  background: none;
-  height: 60px;
-  border: 1px solid #ffffff;
-  border-radius: 50px;
-  padding: 0px 37px;
-}
-
-.button-contained {
-  font-family: 'Manrope-Semibold', sans-serif;
-  color: #929cff;
-  background: #ffffff;
-  height: 60px;
-  border: 1px solid #ffffff;
-  border-radius: 50px;
-  padding: 0px 37px;
-} */
 
 .navigation__intro {
   display: flex;
@@ -151,10 +126,38 @@ main {
 }
 
 /* slogan */
+.glow-3 {
+  position: absolute;
+  top: -681px;
+  left: -440px;
+  z-index: 2;
+}
+
 .slogan {
+  padding-top: 45px;
+  position: relative;
+}
+
+.slogan__wrapper {
+  z-index: 3;
+  position: relative;
+}
+
+.slogan__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .slogan__text {
+  width: 590px;
+  font-family: 'Manrope-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 40px;
 }
 
 /* how-it */
