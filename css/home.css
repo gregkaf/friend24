@@ -6,6 +6,35 @@ body {
   background-color: #838be3;
 }
 
+/* header {
+  position: relative;
+} */
+
+main {
+  position: relative;
+}
+
+.orbit {
+  position: absolute;
+  top: -7px;
+  left: -31px;
+}
+
+.star-suriken-contained-little-bold {
+  position: absolute;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  top: 42px;
+  left: 150px;
+}
+
+.star-suriken-contained-little-bold img {
+  position: absolute;
+  top: -183px;
+  left: -260px;
+}
+
 .container {
   padding: 0 112px;
   max-width: 1440px;
