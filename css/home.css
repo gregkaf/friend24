@@ -105,8 +105,8 @@ main {
   align-items: center;
 }
 
-.navigation__link {
-}
+/* .navigation__link {
+} */
 
 .navigation__intro {
   display: flex;
