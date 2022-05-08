@@ -250,7 +250,6 @@ main {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  /* line-height: 180%; */
   text-align: center;
   color: #ffffff;
   width: 568px;
@@ -267,9 +266,20 @@ main {
 
 .how-it__slogan {
   position: absolute;
-  left: 50%;
-
   top: 125px;
-
+  left: 50%;
   transform: translateX(-50%);
+}
+
+.how-it__phone-screen {
+  top: 154px;
+  left: -143px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.how-it__phone-screen img {
+  position: absolute;
+  top: -159px;
+  left: -350px;
 }
