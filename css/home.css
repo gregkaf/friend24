@@ -232,11 +232,27 @@ main {
 }
 
 .how-it__title {
+  font-family: 'Gatwick-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 51px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .how-it__text {
+  font-family: 'Manrope-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 180%;
+  text-align: center;
+  color: #ffffff;
 }
 
 .how-it__circle-wrapper {
   z-index: 3;
+  border-radius: 50%;
+  /* overflow: hidden; */
 }
