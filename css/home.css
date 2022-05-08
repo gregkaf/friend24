@@ -261,7 +261,7 @@ main {
   z-index: 3;
   border-radius: 50%;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .how-it__slogan {
@@ -275,11 +275,33 @@ main {
   top: 154px;
   left: -143px;
   position: absolute;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .how-it__phone-screen img {
   position: absolute;
   top: -159px;
   left: -350px;
+}
+
+.how-it__cloud-box {
+  display: flex;
+  align-items: center;
+}
+
+.how-it__left-cloud {
+  background: #ffffff;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  font-family: 'Manrope-Regular', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  color: #5b63a7;
+  padding: 0 32px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
