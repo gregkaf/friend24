@@ -285,13 +285,24 @@ main {
   left: -350px;
 }
 
-.how-it__cloud-box {
+.how-it__girl-cloud-box {
   position: absolute;
   top: 380px;
   left: 98px;
   display: flex;
   align-items: flex-start;
   z-index: 2;
+}
+
+.how-it__guy-cloud-box {
+  position: absolute;
+  top: 622px;
+  left: 307px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  z-index: 2;
+  gap: 17px;
 }
 
 .how-it__left-cloud {
@@ -316,6 +327,31 @@ main {
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+}
+.how-it__right-cloud {
+  background: #ffffff;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  font-family: 'Manrope-Regular', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  color: #5b63a7;
+  padding: 0 32px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-family: 'Manrope-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  width: 330px;
+  height: 100px;
 }
 
 .girl-cloud-box-2 {
