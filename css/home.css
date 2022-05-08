@@ -178,6 +178,7 @@ main {
   padding-top: 45px;
   position: relative;
   padding-bottom: 100px;
+  z-index: 1;
 }
 
 .slogan__wrapper {
@@ -207,14 +208,35 @@ main {
 .how-it {
   padding-top: 77px;
 }
+
 .how-it__inner {
+  position: relative;
   display: flex;
   justify-content: center;
 }
 
-.big-circle {
+.big-circle-image {
   height: 856px;
   width: 856px;
   background: #ffffff;
   border-radius: 50%;
+  opacity: 0.2;
+}
+
+.how-it__love-heart-texted {
+  position: absolute;
+  top: -31px;
+  left: 41px;
+  z-index: 2;
+  transform: rotate(-9deg);
+}
+
+.how-it__title {
+}
+
+.how-it__text {
+}
+
+.how-it__circle-wrapper {
+  z-index: 3;
 }
