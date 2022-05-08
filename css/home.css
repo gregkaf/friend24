@@ -221,6 +221,9 @@ main {
   background: #ffffff;
   border-radius: 50%;
   opacity: 0.2;
+  /* position: absolute; */
+  /* top: 3px; */
+  /* left: -132px; */
 }
 
 .how-it__love-heart-texted {
@@ -239,6 +242,7 @@ main {
   line-height: 51px;
   text-align: center;
   color: #ffffff;
+  margin-bottom: 16px;
 }
 
 .how-it__text {
@@ -246,13 +250,26 @@ main {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 180%;
+  /* line-height: 180%; */
   text-align: center;
   color: #ffffff;
+  width: 568px;
+  display: flex;
+  justify-content: center;
 }
 
 .how-it__circle-wrapper {
   z-index: 3;
   border-radius: 50%;
-  /* overflow: hidden; */
+  position: relative;
+  overflow: hidden;
+}
+
+.how-it__slogan {
+  position: absolute;
+  left: 50%;
+
+  top: 125px;
+
+  transform: translateX(-50%);
 }
