@@ -261,7 +261,7 @@ main {
   z-index: 3;
   border-radius: 50%;
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .how-it__slogan {
@@ -275,7 +275,8 @@ main {
   top: 154px;
   left: -143px;
   position: absolute;
-  /* overflow: hidden; */
+  overflow: hidden;
+  z-index: 1;
 }
 
 .how-it__phone-screen img {
@@ -285,8 +286,12 @@ main {
 }
 
 .how-it__cloud-box {
+  position: absolute;
+  top: 380px;
+  left: 98px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  z-index: 2;
 }
 
 .how-it__left-cloud {
@@ -304,4 +309,23 @@ main {
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-family: 'Manrope-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.girl-cloud-box-2 {
+  top: 480px;
+  width: 476px;
+  /* padding: 30px; */
+}
+
+.left-cloud-2 {
+  display: flex;
+  align-items: center;
+  height: 93px;
 }
