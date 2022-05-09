@@ -500,7 +500,7 @@ main {
 .testimonials .center-slider .slick-slide {
   background-color: #b32532;
   color: #fff;
-  height: 370px;
+  height: 450px;
   /* width: 700px; */
   margin: 0 15px 0 0;
   display: flex;
@@ -549,6 +549,6 @@ main {
 
 .testimonials .center-slider .slick-slide:not(.slick-center) {
   transform: scale(0.6);
-  height: 500px;
-  margin-bottom: 60px;
+  /* height: 300px; */
+  /* margin-bottom: 60px; */
 }
