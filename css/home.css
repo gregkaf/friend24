@@ -689,10 +689,9 @@ main {
 
 .testimonials .center-slider .slick-dots {
   position: absolute;
-  left: 550px;
-  bottom: -46px;
+  left: 557px;
+  bottom: -73px;
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   gap: 6px;
   height: 20px;
@@ -716,6 +715,9 @@ main {
 }
 
 .testimonials .center-slider .slick-prev.slick-arrow {
+  position: absolute;
+  left: 1205px;
+  top: 492px;
   font-size: 0;
   height: 60px;
   width: 60px;
@@ -723,7 +725,7 @@ main {
   border: 0;
   border: 2px solid #ffffff;
   background: #ffffff00;
-  position: relative;
+  /* position: relative; */
   background: url(../images/home/arrow-left.svg) no-repeat;
   background-position-x: 13px;
   background-position-y: 13px;
@@ -731,6 +733,9 @@ main {
 }
 
 .testimonials .center-slider .slick-next.slick-arrow {
+  position: absolute;
+  left: 1280px;
+  top: 492px;
   font-size: 0;
   height: 60px;
   width: 60px;
