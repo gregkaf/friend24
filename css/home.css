@@ -207,6 +207,7 @@ main {
 /* how-it */
 .how-it {
   padding-top: 77px;
+  padding-bottom: 77px;
 }
 
 .how-it__inner {
@@ -328,6 +329,7 @@ main {
   font-size: 20px;
   line-height: 30px;
 }
+
 .how-it__right-cloud {
   background: #ffffff;
   height: 70px;
@@ -392,4 +394,51 @@ main {
   position: absolute;
   top: -543px;
   right: -544px;
+}
+
+/* features */
+.features {
+  padding-top: 104px;
+}
+
+.features__slogan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features__title {
+  font-family: 'Gatwick-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 51px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.features__text {
+  font-family: 'Manrope-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  width: 568px;
+}
+
+.features__card-icon {
+  position: relative;
+  /* background: pink; */
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.features__card-icon img {
+  position: absolute;
+  top: -560px;
+  left: -161px;
 }
