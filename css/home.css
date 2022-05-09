@@ -665,10 +665,6 @@ main {
   color: #ffffff;
 }
 
-.testimonials
-  .center-slider
-  .slick-slide
-  .testimonials__box
-  .testimonials__city {
+.testimonials .center-slider .slick-slide .testimonials__stars {
   margin-right: 50px;
 }
