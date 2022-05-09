@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $('.center-slider').slick({
-    slidesToShow: 5,
+    slidesToShow: 3,
     slidesToScroll: 1,
     centerMode: true,
     arrows: true,
@@ -9,6 +9,6 @@ $(document).ready(function () {
     centerPadding: '20px',
     infinite: true,
     autoplaySpeed: 5000,
-    autoplay: true,
+    autoplay: false,
   });
 });
