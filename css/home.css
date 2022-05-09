@@ -497,6 +497,28 @@ main {
   padding-top: 272px;
 }
 
+.testimonials__text-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.testimonials .center-slider .slick-slide .testimonials__commas {
+  width: 30px;
+  border-radius: 0;
+}
+
+.testimonials .center-slider .slick-slide .testimonials__text {
+  font-family: 'Manrope-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #ffffff;
+}
+
 /* .testimonials
   .testimonials__slide
   .slick-slide
@@ -517,6 +539,7 @@ main {
   justify-content: center;
   transform: scale(0.8);
   transition: all 0.4s ease-in-out;
+  gap: 32px;
 
   background: linear-gradient(
     180deg,
@@ -594,11 +617,39 @@ main {
   padding: 48px;
 }
 
-/* .testimonials .center-slider .slick-slide .testimonials__foto img {
-  width: 180px;
-} */
-
 .testimonials .center-slider .slick-slide img {
   width: 180px;
   border-radius: 20px;
+}
+
+.testimonials .center-slider .slick-slide .testimonials__text-box {
+  padding-top: 27px;
+}
+
+.testimonials
+  .center-slider
+  .slick-slide
+  .testimonials__box
+  .testimonials__name {
+  font-family: 'Manrope-Regular';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.testimonials
+  .center-slider
+  .slick-slide
+  .testimonials__box
+  .testimonials__city {
+  font-family: 'Manrope-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
 }
