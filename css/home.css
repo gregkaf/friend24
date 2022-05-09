@@ -668,3 +668,20 @@ main {
 .testimonials .center-slider .slick-slide .testimonials__stars {
   margin-right: 50px;
 }
+
+.testimonials
+  .center-slider
+  .slick-slide
+  .testimonials__stars
+  .testimonials__stars-inner {
+  display: flex;
+}
+
+.testimonials
+  .center-slider
+  .slick-slide
+  .testimonials__stars
+  .testimonials__stars-inner
+  .testimonials__star {
+  width: 24px;
+}
