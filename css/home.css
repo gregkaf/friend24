@@ -492,6 +492,7 @@ main {
 }
 /* card <<< */
 
+/* testimonials */
 .testimonials {
   padding-top: 272px;
 }
@@ -549,6 +550,17 @@ main {
 
 .testimonials .center-slider .slick-slide:not(.slick-center) {
   transform: scale(0.6);
-  /* height: 300px; */
-  /* margin-bottom: 60px; */
+}
+
+.testimonials .center-slider .slick-slide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px;
+}
+
+.testimonials .center-slider .slick-slide img {
+  width: 180px;
+  /* height: 302px; */
+  display: block;
 }

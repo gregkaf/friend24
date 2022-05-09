@@ -4,7 +4,7 @@ $(document).ready(function () {
     slidesToScroll: 1,
     centerMode: true,
     arrows: true,
-    dots: false,
+    dots: true,
     speed: 300,
     centerPadding: '20px',
     infinite: true,
