@@ -428,17 +428,60 @@ main {
   width: 568px;
 }
 
+/* >>> card */
+.features__card {
+  width: 384px;
+  height: 408px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 24px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.4) 0.55%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  backdrop-filter: blur(42px);
+  overflow: hidden;
+  border: 2px solid white;
+}
+
 .features__card-icon {
   position: relative;
-  /* background: pink; */
-  height: 100px;
-  width: 100px;
+  background: #ffffff;
+  height: 120px;
+  width: 120px;
   overflow: hidden;
   border-radius: 50%;
+  filter: drop-shadow(0px 0px 555.66px #eee5ff)
+    drop-shadow(0px 0px 317.52px #eee5ff) drop-shadow(0px 0px 185.22px #eee5ff)
+    drop-shadow(0px 0px 92.61px #eee5ff) drop-shadow(0px 0px 26.46px #eee5ff)
+    drop-shadow(0px 0px 13.23px #eee5ff);
 }
 
 .features__card-icon img {
   position: absolute;
-  top: -560px;
-  left: -161px;
+  top: 6px;
+  left: 6px;
 }
+
+.features__card-title {
+  font-family: 'Manrope-Regular';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  width: 252px;
+}
+
+.features__card-text {
+  font-family: 'Manrope-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  /* line-height: 170%; */
+  color: rgba(255, 255, 255, 0.9);
+}
+/* card <<< */
