@@ -365,3 +365,31 @@ main {
   align-items: center;
   height: 93px;
 }
+
+.how-it__big-star {
+  position: absolute;
+  top: 338px;
+  right: 27px;
+  width: 50px;
+  height: 50px;
+}
+
+.how-it__big-star img {
+  top: -563px;
+  right: -563px;
+  position: absolute;
+}
+
+.how-it__little-star {
+  position: absolute;
+  top: 898px;
+  right: 134px;
+  width: 50px;
+  height: 50px;
+}
+
+.how-it__little-star img {
+  position: absolute;
+  top: -543px;
+  right: -544px;
+}
