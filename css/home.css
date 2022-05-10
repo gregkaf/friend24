@@ -405,6 +405,21 @@ main {
   position: relative;
 }
 
+.feature__star {
+  position: absolute;
+  bottom: -200px;
+  left: 70px;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+}
+
+.feature__star img {
+  position: absolute;
+  bottom: -490px;
+  left: -469px;
+}
+
 .feature__glow-5 {
   position: absolute;
   top: -780px;
@@ -772,6 +787,24 @@ main {
 /* --- in-touch */
 .in-touch {
   padding-bottom: 182px;
+}
+
+.in-touch__inner {
+  position: relative;
+}
+
+.in-touch__big-star {
+  position: absolute;
+  top: 700px;
+  right: 130px;
+  width: 50px;
+  height: 50px;
+}
+
+.in-touch__big-star img {
+  top: -563px;
+  right: -563px;
+  position: absolute;
 }
 
 .in-touch__form {
