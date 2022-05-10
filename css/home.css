@@ -424,19 +424,23 @@ main {
   position: absolute;
   top: -780px;
   right: -980px;
+  z-index: 1;
 }
 
 .feature__glow-6 {
   position: absolute;
   top: -680px;
   left: -840px;
+  z-index: 2;
 }
 
 .features__slogan {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 63px;
+  z-index: 3;
 }
 
 .features__title {
@@ -461,6 +465,8 @@ main {
 }
 
 .features__cards {
+  position: relative;
+  z-index: 4;
   display: flex;
   justify-content: space-between;
 }
@@ -533,15 +539,18 @@ main {
   position: absolute;
   top: -605px;
   left: 170px;
+  z-index: 2;
 }
 
 .testimonials__glow-8 {
   position: absolute;
   top: -91px;
   left: -830px;
+  z-index: 2;
 }
 
 .testimonials__title {
+  position: relative;
   font-family: 'Gatwick-Bold';
   font-style: normal;
   font-weight: 700;
@@ -551,6 +560,10 @@ main {
   color: #ffffff;
   margin-bottom: 16px;
   margin-bottom: 46px;
+  z-index: 3;
+}
+.center-slider {
+  z-index: 4;
 }
 
 .testimonials__text-box {
@@ -913,10 +926,15 @@ footer {
 }
 
 .what-to__slogan {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 61px;
+}
+
+.what-to__button {
+  position: relative;
 }
 
 .what-to__title {
@@ -948,6 +966,7 @@ footer {
 }
 
 .footer__links {
+  position: relative;
   margin: 0 auto 74px auto;
   max-width: 592px;
   display: flex;
@@ -964,6 +983,7 @@ footer {
 } */
 
 .footer__sub {
+  position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
