@@ -487,8 +487,8 @@ main {
 
 /* --- testimonials */
 .testimonials {
-  padding-top: 272px;
-  padding-bottom: 150px;
+  padding-top: 182px;
+  padding-bottom: 275px;
 }
 
 .testimonials__title {
@@ -500,7 +500,7 @@ main {
   text-align: center;
   color: #ffffff;
   margin-bottom: 16px;
-  margin-bottom: 94px;
+  margin-bottom: 46px;
 }
 
 .testimonials__text-box {
