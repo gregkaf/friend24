@@ -208,6 +208,12 @@ main {
   padding-bottom: 77px;
 }
 
+.how-it__glow-4 {
+  position: absolute;
+  top: -719px;
+  left: 130px;
+}
+
 .how-it__inner {
   position: relative;
   display: flex;
@@ -393,6 +399,22 @@ main {
 /* --- features */
 .features {
   padding-top: 104px;
+}
+
+.features__inner {
+  position: relative;
+}
+
+.feature__glow-5 {
+  position: absolute;
+  top: -780px;
+  right: -980px;
+}
+
+.feature__glow-6 {
+  position: absolute;
+  top: -680px;
+  left: -840px;
 }
 
 .features__slogan {
