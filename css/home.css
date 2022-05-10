@@ -491,6 +491,7 @@ main {
 }
 
 .features__card-icon {
+  z-index: 1;
   position: relative;
   background: #ffffff;
   height: 120px;
@@ -499,8 +500,7 @@ main {
   border-radius: 50%;
   filter: drop-shadow(0px 0px 555.66px #eee5ff)
     drop-shadow(0px 0px 317.52px #eee5ff) drop-shadow(0px 0px 185.22px #eee5ff)
-    drop-shadow(0px 0px 92.61px #eee5ff) drop-shadow(0px 0px 26.46px #eee5ff)
-    drop-shadow(0px 0px 13.23px #eee5ff);
+    drop-shadow(0px 0px 92.61px #eee5ff) drop-shadow(0px 0px 26.46px #eee5ff);
 }
 
 .features__card-icon img {
@@ -509,7 +509,19 @@ main {
   left: 6px;
 }
 
+.features__card-icon .features__icon-book {
+  top: 14px;
+  left: 15px;
+}
+
+.features__card-icon .features__icon-like {
+  top: 12px;
+  left: 15px;
+}
+
 .features__card-title {
+  z-index: 2;
+  position: relative;
   font-family: 'Manrope-Regular';
   font-style: normal;
   font-weight: 800;
@@ -520,6 +532,8 @@ main {
 }
 
 .features__card-text {
+  z-index: 2;
+  position: relative;
   font-family: 'Manrope-Regular';
   font-style: normal;
   font-weight: 500;
@@ -647,16 +661,24 @@ main {
 .slick-prev {
   z-index: 5;
 }
+
 .slick-next {
   right: 15px;
 }
+
 .slick-prev {
   left: 15px;
 }
+
 .slick-next:before,
 .slick-prev:before {
   color: #000;
   font-size: 26px;
+}
+
+.testimonials .center-slider .slick-next.slick-arrow:hover,
+.testimonials .center-slider .slick-prev.slick-arrow:hover {
+  background-color: #ffffff34;
 }
 
 .testimonials .center-slider .slick-slide:not(.slick-center) {
