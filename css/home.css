@@ -802,4 +802,9 @@ main {
   width: 256px;
 }
 
-/*  */
+/* what-to */
+.what-to__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
