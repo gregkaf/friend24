@@ -874,6 +874,21 @@ main {
   align-items: center;
 }
 
+.what-to__star {
+  position: absolute;
+  top: 240px;
+  left: 0;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+
+.what-to__star img {
+  position: absolute;
+  top: -517px;
+  left: -530px;
+}
+
 .what-to__glow-91 {
   position: absolute;
   top: -630px;
