@@ -959,9 +959,6 @@ footer {
 
 .what-to__slogan {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-bottom: 61px;
 }
 
@@ -970,7 +967,6 @@ footer {
 }
 
 .what-to__title {
-  max-width: 725px;
   line-height: 54px;
   font-family: 'Gatwick-Bold';
   font-style: normal;
@@ -990,7 +986,6 @@ footer {
   font-size: 18px;
   text-align: center;
   color: #ffffff;
-  width: 568px;
 }
 
 .features__text {
