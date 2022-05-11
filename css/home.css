@@ -264,7 +264,7 @@ main {
   font-size: 18px;
   text-align: center;
   color: #ffffff;
-  width: 568px;
+  max-width: 466px;
   display: flex;
   justify-content: center;
 }
@@ -471,7 +471,7 @@ main {
   font-size: 18px;
   text-align: center;
   color: #ffffff;
-  width: 568px;
+  max-width: 746px;
 }
 
 .features__cards {
