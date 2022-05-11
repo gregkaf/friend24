@@ -309,7 +309,7 @@ main {
 .how-it__guy-cloud-box {
   position: absolute;
   top: 622px;
-  left: 307px;
+  left: 282px;
   display: flex;
   flex-direction: row-reverse;
   align-items: flex-start;
@@ -363,8 +363,14 @@ main {
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  width: 330px;
+  width: 363px;
   height: 100px;
+  background: #fdf4ff;
+  box-shadow: 0px 200.649px 81.2151px rgba(124, 128, 156, 0.01),
+    0px 113.064px 68.4755px rgba(124, 128, 156, 0.05),
+    0px 50.9585px 50.9585px rgba(124, 128, 156, 0.09),
+    0px 12.7396px 27.0717px rgba(124, 128, 156, 0.1),
+    0px 0px 0px rgba(124, 128, 156, 0.1);
 }
 
 .girl-cloud-box-2 {
