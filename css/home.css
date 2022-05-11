@@ -21,13 +21,20 @@ main {
   left: -31px;
 }
 
-.glow-1 {
+.header__button {
+  position: relative;
+  z-index: 3;
+}
+
+.header__glow-1 {
+  z-index: 1;
   position: absolute;
   top: -754px;
   left: -37px;
 }
 
-.glow-2 {
+.header__glow-2 {
+  z-index: 1;
   position: absolute;
   top: -754px;
   left: 153px;
@@ -107,6 +114,8 @@ main {
 } */
 
 .navigation__intro {
+  position: relative;
+  z-index: 3;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -114,10 +123,10 @@ main {
 }
 
 .navigation__main-text {
-  margin-top: 174px;
+  margin-top: 138px;
   align-self: flex-start;
   margin-left: 106px;
-  width: 520px;
+  width: 500px;
 }
 
 .navigation__title {
@@ -139,6 +148,7 @@ main {
   letter-spacing: 0em;
   text-align: left;
   color: #ffffff;
+  margin-bottom: 45px;
 }
 
 .navigation__figure {
