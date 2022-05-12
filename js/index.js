@@ -12,3 +12,38 @@ $(document).ready(function () {
     autoplay: false,
   });
 });
+
+const fbPixelsEvent = () => fbq('trackCustom', 'Add to Wishlist');
+
+// const buttonAppWantTo = document.getElementById('download_app_what_to');
+// buttonAppWantTo.onclick = fbPixelsEvent;
+
+// const buttonAppNavigation = document.getElementById('download_app_navigation');
+// buttonAppNavigation.onclick = fbPixelsEvent;
+
+// $('#link_feature').click(function () {
+//   $([document.documentElement, document.body]).animate(
+//     {
+//       scrollTop: $('#features').offset().top,
+//     },
+//     2000
+//   );
+// });
+
+// $('#link_about').click(function () {
+//   $([document.documentElement, document.body]).animate(
+//     {
+//       scrollTop: $('.how-it').offset().top,
+//     },
+//     2000
+//   );
+// });
+
+// $('#navigation__contct-us').click(function () {
+//   $([document.documentElement, document.body]).animate(
+//     {
+//       scrollTop: $('.in-touch').offset().top,
+//     },
+//     2000
+//   );
+// });
