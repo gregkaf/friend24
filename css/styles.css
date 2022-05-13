@@ -964,7 +964,7 @@ main {
 
 .testimonials .center-slider .slick-prev.slick-arrow {
   position: absolute;
-  left: 1205px;
+  left: 1050px;
   top: 492px;
   font-size: 0;
   height: 60px;
@@ -973,7 +973,7 @@ main {
   border: 0;
   border: 2px solid #ffffff;
   background: #ffffff00;
-  background: url(../images/home/arrow-left.svg) no-repeat;
+  background: url(../images/arrow-left.svg) no-repeat;
   background-position-x: 13px;
   background-position-y: 13px;
   cursor: pointer;
@@ -981,7 +981,7 @@ main {
 
 .testimonials .center-slider .slick-next.slick-arrow {
   position: absolute;
-  left: 1280px;
+  left: 1150px;
   top: 492px;
   font-size: 0;
   height: 60px;
@@ -990,7 +990,7 @@ main {
   border: 0;
   border: 2px solid #ffffff;
   background: #ffffff00;
-  background: url(../images/home/arrow-left.svg) no-repeat;
+  background: url(../images/arrow-left.svg) no-repeat;
   background-position-x: 13px;
   background-position-y: 13px;
   transform: scaleX(-1);
