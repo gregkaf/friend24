@@ -619,12 +619,12 @@ main {
   padding-left: 40px;
   padding-right: 20px;
   border-radius: 24px;
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.4) 0.55%,
     rgba(255, 255, 255, 0) 100%
-  );
-  backdrop-filter: blur(42px);
+  ); */
+  /* backdrop-filter: blur(42px); */
   overflow: hidden;
   border: 2px solid white;
 }
@@ -638,9 +638,9 @@ main {
   width: 120px;
   overflow: hidden;
   border-radius: 50%;
-  filter: drop-shadow(0px 0px 555.66px #eee5ff)
+  /* filter: drop-shadow(0px 0px 555.66px #eee5ff)
     drop-shadow(0px 0px 317.52px #eee5ff) drop-shadow(0px 0px 185.22px #eee5ff)
-    drop-shadow(0px 0px 92.61px #eee5ff) drop-shadow(0px 0px 26.46px #eee5ff);
+    drop-shadow(0px 0px 92.61px #eee5ff) drop-shadow(0px 0px 26.46px #eee5ff); */
 }
 
 .features__card-icon img {
