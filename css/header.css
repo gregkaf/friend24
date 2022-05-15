@@ -145,9 +145,47 @@ main {
 }
 
 @media screen and (max-width: 1010px) {
-  /* .container {
-    padding: 0 10px;
-    max-width: 1440px;
-    margin: 0 auto;
-  } */
+  .navigation__intro {
+    flex-direction: column;
+    margin-right: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .navigation__main-text {
+    align-self: center;
+    align-items: center;
+    margin: 0;
+  }
+  .navigation__main-text .navigation__title {
+    text-align: center;
+  }
+  .navigation__main-text .header__button {
+    align-self: center;
+  }
+  .navigation__main-text .navigation__sub-title {
+    text-align: center;
+  }
+  .navigation__main-text .header__button-wrapper {
+    justify-content: center;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .navigation__buttons-group {
+    display: none;
+  }
+  .girl-cloud {
+    height: 50px;
+    width: 130px;
+    font-size: 13px;
+    left: 40px;
+    padding: 0 20px;
+  }
+  .heart-one-up {
+    right: 0px;
+  }
+  header .container {
+    padding: 0 50px;
+  }
 }

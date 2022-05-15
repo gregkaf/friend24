@@ -96,7 +96,7 @@ body {
 }
 
 .slogan__text {
-  width: 600px;
+  max-width: 600px;
   font-family: 'Manrope-Regular';
   font-style: normal;
   font-weight: 500;
