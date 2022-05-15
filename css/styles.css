@@ -1,69 +1,8 @@
-/* reset */
-html {
-  box-sizing: border-box;
-}
-
-html,
-body,
-#root {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul,
-li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
-}
-
 /* common */
 .container {
   padding: 0 112px;
   max-width: 1440px;
   margin: 0 auto;
-}
-
-@media screen and (max-width: 630px) {
-  .container {
-    padding: 0 50px;
-    max-width: 1440px;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .container {
-    padding: 0 10px;
-    max-width: 1440px;
-    margin: 0 auto;
-  }
 }
 
 .button-outlined {
@@ -517,16 +456,16 @@ body {
     width: 90vw;
   }
 
-  .in-touch .container {
+  /* .in-touch .container {
     padding: 0 10px;
-  }
+  } */
 }
 
-.container {
+/* .container {
   padding: 0 112px;
   max-width: 1440px;
   margin: 0 auto;
-}
+} */
 
 .in-touch__input::placeholder,
 .in-touch__message::placeholder {

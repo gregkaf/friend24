@@ -143,3 +143,11 @@ main {
   left: -134px;
   top: 0;
 }
+
+@media screen and (max-width: 1010px) {
+  /* .container {
+    padding: 0 10px;
+    max-width: 1440px;
+    margin: 0 auto;
+  } */
+}
