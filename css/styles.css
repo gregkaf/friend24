@@ -357,11 +357,12 @@ main {
 
 @media screen and (max-width: 695px) {
   .how-it__image {
-    transform: scale(0.8);
+    height: 700px;
+    width: 700px;
   }
 }
 
-@media screen and (max-width: 569px) {
+/* @media screen and (max-width: 569px) {
   .how-it__image {
     transform: scale(0.7);
   }
@@ -377,7 +378,7 @@ main {
   .how-it__image {
     transform: scale(0.5);
   }
-}
+} */
 
 .how-it__glow-4 {
   position: absolute;
@@ -405,6 +406,14 @@ main {
   left: 41px;
   z-index: 2;
   transform: rotate(-9deg);
+}
+
+@media screen and (max-width: 1080px) {
+  .how-it__love-heart-texted {
+    top: -161px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 .how-it__title {
