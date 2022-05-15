@@ -153,9 +153,19 @@
   /* overflow: hidden; */
 }
 
-.banner-stories h2 {
+.banner-stories .testimonials__main-title {
   color: white;
-  font-size: 2.2rem;
+  /* font-size: 2.2rem; */
+  display: flex;
+  justify-content: center;
+  font-family: 'Gatwick-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 51px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
 
 .banner-stories__item {
