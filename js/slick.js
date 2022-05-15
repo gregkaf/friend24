@@ -1,14 +1,19 @@
-$(document).ready(function () {
-  $('.slider24').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    centerMode: true,
-    arrows: true,
-    dots: true,
-    speed: 300,
-    centerPadding: '20px',
-    infinite: true,
-    autoplaySpeed: 5000,
-    autoplay: false,
-  });
+$('.banner-stories__item-wrapper').slick({
+  centerMode: true,
+  centerPadding: '20%',
+  arrows: false,
+  dots: true,
+  autoplay: false,
+  speed: 1100,
+  slidesToShow: 1,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        centerMode: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
 });

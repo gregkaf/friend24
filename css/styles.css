@@ -97,7 +97,7 @@ p {
 
 /* fonts */
 /* normal */
-/* @font-face {
+@font-face {
   font-family: 'Manrope-Regular';
   src: url('../fonts/Manrope-Regular.woff2') format('woff2'),
     url('../fonts/Manrope-Regular.woff') format('woff');
@@ -113,7 +113,7 @@ p {
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-} */
+}
 
 /* index */
 :root {
@@ -915,4 +915,23 @@ footer {
   font-size: 16px;
   line-height: 22px;
   color: rgba(255, 255, 255, 0.7);
+}
+
+/* testimonials */
+.banner-stories__item .card-body .testimonials__stars {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-end; */
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.banner-stories__item .card-body .testimonials__stars-inner {
+  display: flex;
+  width: 120px;
+}
+
+.banner-stories__item .card-body .testimonials__star {
+  width: 24px;
+  height: 24px;
 }
