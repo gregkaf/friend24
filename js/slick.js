@@ -8,7 +8,7 @@ $('.banner-stories__item-wrapper').slick({
   slidesToShow: 1,
   responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 850,
       settings: {
         centerMode: false,
         slidesToShow: 1,
