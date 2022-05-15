@@ -607,6 +607,16 @@ main {
   bottom: -490px;
   left: -469px;
 }
+
+@media screen and (max-width: 1440px) {
+  /* .in-touch__input {
+    width: 90vw;
+  }
+
+  .in-touch .container {
+    padding: 0 10px;
+  } */
+}
 /* 
 .feature__glow-5 {
   position: absolute;
@@ -656,9 +666,31 @@ main {
   position: relative;
   z-index: 4;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 20px;
+}
+
+.features__cards .features__icon-like {
+  top: 11px;
+  left: 14px;
+}
+
+@media screen and (max-width: 1177px) {
+  .features__cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .features__cards .features__icon-like {
+    top: 2px;
+    left: 5px;
+  }
+  /* .in-touch__input {
+    width: 90vw;
+  }
+
+  .in-touch .container {
+    padding: 0 10px;
+  } */
 }
 
 /* @media screen and (max-width: 1450px) {
@@ -672,7 +704,6 @@ main {
 /* >>> card */
 .features__card {
   width: 384px;
-  /* height: 408px; */
   padding-top: 40px;
   padding-bottom: 40px;
   padding-left: 40px;
@@ -697,9 +728,43 @@ main {
   width: 120px;
   overflow: hidden;
   border-radius: 50%;
-  /* filter: drop-shadow(0px 0px 555.66px #eee5ff)
-    drop-shadow(0px 0px 317.52px #eee5ff) drop-shadow(0px 0px 185.22px #eee5ff)
-    drop-shadow(0px 0px 92.61px #eee5ff) drop-shadow(0px 0px 26.46px #eee5ff); */
+}
+
+@media screen and (max-width: 1440px) {
+  /* .in-touch__input {
+    width: 90vw;
+  }
+
+  .in-touch .container {
+    padding: 0 10px;
+  } */
+
+  .features__card-icon {
+    height: 100px;
+    width: 100px;
+  }
+
+  .features__card {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+  }
+
+  .features__card .features__card-title {
+    font-size: 18px;
+  }
+
+  .features__card .features__card-text {
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .features__card .features__card-icon {
+    margin-bottom: 16px;
+  }
+
+  .features__card .features__card-icon .features__icon-like {
+  }
 }
 
 .features__card-icon img {
@@ -713,10 +778,10 @@ main {
   left: 15px;
 }
 
-.features__card-icon .features__icon-like {
-  top: 12px;
-  left: 15px;
-}
+/* .features__card-icon .features__icon-like {
+  top: 2px;
+  left: 5px;
+} */
 
 .features__card-title {
   z-index: 2;
@@ -750,7 +815,7 @@ main {
   padding-bottom: 275px;
 }
 
-.testimonials__glow-7 {
+/* .testimonials__glow-7 {
   position: absolute;
   top: -605px;
   left: 170px;
@@ -762,7 +827,7 @@ main {
   top: -91px;
   left: -830px;
   z-index: 2;
-}
+} */
 
 .testimonials__title {
   position: relative;

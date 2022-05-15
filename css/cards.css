@@ -1,0 +1,40 @@
+.features__cards {
+  position: relative;
+  z-index: 4;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.features__cards .features__icon-like {
+  top: 11px;
+  left: 14px;
+}
+
+.features__card {
+  width: 384px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 20px;
+  border-radius: 24px;
+  /* background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.4) 0.55%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    backdrop-filter: blur(42px); */
+  overflow: hidden;
+  border: 2px solid white;
+}
+
+.features__card-icon {
+  margin-bottom: 24px;
+  z-index: 1;
+  position: relative;
+  background: #ffffff;
+  height: 120px;
+  width: 120px;
+  overflow: hidden;
+  border-radius: 50%;
+}
