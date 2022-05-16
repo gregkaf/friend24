@@ -7515,22 +7515,6 @@
     });
 });
 
-// index
-// $(document).ready(function () {
-//   $('.center-slider').slick({
-//     slidesToShow: 3,
-//     slidesToScroll: 1,
-//     centerMode: true,
-//     arrows: true,
-//     dots: true,
-//     speed: 300,
-//     centerPadding: '20px',
-//     infinite: true,
-//     autoplaySpeed: 5000,
-//     autoplay: false,
-//   });
-// });
-
 const fbPixelsEvent = () => fbq('trackCustom', 'Add to Wishlist');
 
 const whatToDownloadAppBtn = document.getElementById(
@@ -7567,6 +7551,15 @@ $('#nav-about').click(function () {
     2000
   );
 });
+
+// burger >>
+// const whatToDownloadAppBtn = $('.navigation__mobile-menu');
+$('.navigation__burger').click(function () {
+  console.log(1);
+  $('.navigation__mobile-menu').toggleClass('show__mobile-menu');
+});
+
+// << burger
 
 // facebook-pixels
 !(function (f, b, e, v, n, t, s) {

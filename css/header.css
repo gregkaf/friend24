@@ -158,6 +158,25 @@ main {
   transition: 0.1s;
 }
 
+/* burger >>> */
+.navigation__mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  height: 100vh;
+  align-items: center;
+  font-family: 'Manrope-Semibold', sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+  display: none;
+}
+
+.show__mobile-menu {
+  display: flex;
+}
+/* <<< burger */
+
 @media screen and (max-width: 1010px) {
   .navigation__intro {
     flex-direction: column;
