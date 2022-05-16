@@ -3,8 +3,11 @@
   padding-top: 77px;
   padding-bottom: 77px;
 }
+.how-it__image {
+  width: 100%;
+}
 
-@media screen and (max-width: 695px) {
+/* @media screen and (max-width: 695px) {
   .how-it__image {
     height: 700px;
     width: 700px;
@@ -30,13 +33,13 @@
     height: 400px;
     width: 400px;
   }
-}
+} */
 
-.how-it__glow-4 {
+/* .how-it__glow-4 {
   position: absolute;
   top: -719px;
   left: 130px;
-}
+} */
 
 .how-it__inner {
   position: relative;
@@ -66,6 +69,17 @@
     left: 50%;
     transform: translateX(-50%);
   }
+}
+
+@media screen and (max-width: 790px) {
+  .how-it .container {
+    padding: 0 20px;
+  }
+  /* .how-it__love-heart-texted {
+    top: -161px;
+    left: 50%;
+    transform: translateX(-50%);
+  } */
 }
 
 .how-it__title {
