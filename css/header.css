@@ -99,7 +99,7 @@ main {
   margin-top: 138px;
   align-self: flex-start;
   margin-left: 106px;
-  width: 500px;
+  max-width: 500px;
 }
 
 .navigation__title {
@@ -233,14 +233,21 @@ main {
     height: 50px;
     width: 130px;
     font-size: 13px;
-    left: 40px;
+    left: -20px;
+    top: 100px;
     padding: 0 20px;
   }
   .heart-one-up {
     right: 0px;
   }
-  header .container {
-    padding: 0 50px;
+
+  .navigation__figure-inner img {
+    width: 360px;
+    left: -34px;
+    top: 106px;
+  }
+  .navigation__figure-inner {
+    width: 310px;
   }
 }
 

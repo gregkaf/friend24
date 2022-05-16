@@ -10,6 +10,12 @@ body {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 400px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+
 .button-outlined {
   font-family: 'Manrope-Semibold', sans-serif;
   color: #ffffff;
