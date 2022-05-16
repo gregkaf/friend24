@@ -86,9 +86,6 @@ main {
   align-items: center;
 }
 
-/* .navigation__link {
-    } */
-
 .navigation__intro {
   position: relative;
   z-index: 3;
@@ -144,6 +141,23 @@ main {
   top: 0;
 }
 
+.navigation__burger {
+  display: none;
+  width: 50px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.navigation__burger:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.navigation__burger:active {
+  transform: scale(0.9);
+  transition: 0.1s;
+}
+
 @media screen and (max-width: 1010px) {
   .navigation__intro {
     flex-direction: column;
@@ -174,6 +188,9 @@ main {
 @media screen and (max-width: 760px) {
   .navigation__buttons-group {
     display: none;
+  }
+  .navigation__burger {
+    display: block;
   }
   .girl-cloud {
     height: 50px;
