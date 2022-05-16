@@ -18,37 +18,6 @@
   font-display: swap;
 }
 
-/* --- slogan */
-.slogan {
-  padding-top: 45px;
-  position: relative;
-  padding-bottom: 100px;
-  z-index: 1;
-}
-
-.slogan__wrapper {
-  z-index: 3;
-  position: relative;
-}
-
-.slogan__inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.slogan__text {
-  max-width: 600px;
-  font-family: 'Manrope-Regular';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  text-align: center;
-  color: #ffffff;
-  margin-bottom: 40px;
-  line-height: 35px;
-}
-
 /* --- features */
 .features {
   position: relative;
