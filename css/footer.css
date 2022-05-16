@@ -17,6 +17,7 @@ footer {
 }
 
 .footer__sub {
+  text-align: center;
   position: relative;
   display: flex;
   justify-content: center;

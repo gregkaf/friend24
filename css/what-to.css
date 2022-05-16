@@ -76,3 +76,9 @@
   text-align: center;
   color: #ffffff;
 }
+
+@media screen and (max-width: 650px) {
+  .what-to {
+    padding-bottom: 80px;
+  }
+}
