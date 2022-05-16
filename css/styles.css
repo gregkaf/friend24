@@ -321,10 +321,6 @@ body {
 }
 
 /* --- footer */
-footer {
-  padding-bottom: 57px;
-}
-
 .what-to__slogan {
   position: relative;
   margin-bottom: 61px;
@@ -357,43 +353,10 @@ footer {
   color: #ffffff;
 }
 
-.features__text {
-  margin-bottom: 10px;
-}
-
-.footer__links {
-  position: relative;
-  margin: 0 auto 74px auto;
-  max-width: 592px;
-  display: flex;
-  justify-content: space-between;
-  font-family: 'Manrope-Regular';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 22px;
-  color: #ffffff;
-}
-
-.footer__sub {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  font-family: 'Manrope-Regular';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 22px;
-  color: rgba(255, 255, 255, 0.7);
-}
-
 /* testimonials */
 .banner-stories__item .card-body .testimonials__stars {
   display: flex;
   flex-direction: row;
-  /* justify-content: flex-end; */
   justify-content: space-between;
   align-items: flex-end;
 }
