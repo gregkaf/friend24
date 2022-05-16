@@ -175,6 +175,25 @@ main {
 .show__mobile-menu {
   display: flex;
 }
+
+.navigation__close {
+  display: none;
+}
+
+.navigation__show {
+  display: block;
+}
+
+/* .navigation__burger-hide {
+  display: none;
+} */
+
+.navigation__mobile-menu-features,
+.navigation__mobile-menu-about,
+.navigation__mobile-menu-contact-us {
+  cursor: pointer;
+}
+
 /* <<< burger */
 
 @media screen and (max-width: 1010px) {

@@ -7543,6 +7543,15 @@ $('#nav-feature').click(function () {
   );
 });
 
+$('.navigation__mobile-menu-features').click(function () {
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $('.how-it').offset().top,
+    },
+    2000
+  );
+});
+
 $('#nav-about').click(function () {
   $([document.documentElement, document.body]).animate(
     {
@@ -7552,12 +7561,36 @@ $('#nav-about').click(function () {
   );
 });
 
+// --------------------------------------------------------
+$('.navigation__mobile-menu-about').click(function () {
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $('.how-it').offset().top,
+    },
+    2000
+  );
+});
+
+$('.navigation__mobile-menu-contact-us').click(function () {
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $('.in-touch').offset().top,
+    },
+    2000
+  );
+});
+
 // burger >>
 // const whatToDownloadAppBtn = $('.navigation__mobile-menu');
 $('.navigation__burger').click(function () {
-  console.log(1);
   $('.navigation__mobile-menu').toggleClass('show__mobile-menu');
+  $('.navigation__close').toggleClass('navigation__show');
+  // $('.navigation__burger').toggleClass('navigation__burger-hide');
 });
+
+// $('.navigation__burger').click(function () {
+//   $('.navigation__mobile-menu').toggleClass('show__mobile-menu');
+// });
 
 // << burger
 
