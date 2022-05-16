@@ -248,6 +248,7 @@ main {
   }
   .navigation__figure-inner {
     width: 310px;
+    height: 500px;
   }
 }
 
