@@ -1,5 +1,4 @@
 /* fonts */
-/* normal */
 @font-face {
   font-family: 'Manrope-Regular';
   src: url('../fonts/Manrope-Regular.woff2') format('woff2'),
@@ -16,62 +15,6 @@
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-}
-
-/* --- features */
-.features {
-  position: relative;
-  z-index: 4;
-  padding-top: 104px;
-}
-
-.features__inner {
-  position: relative;
-}
-
-.feature__star {
-  position: absolute;
-  bottom: -200px;
-  left: 70px;
-  overflow: hidden;
-  height: 200px;
-  width: 200px;
-}
-
-.feature__star img {
-  position: absolute;
-  bottom: -490px;
-  left: -469px;
-}
-
-.features__slogan {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 63px;
-  z-index: 3;
-}
-
-.features__title {
-  font-family: 'Gatwick-Bold';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 44px;
-  line-height: 51px;
-  text-align: center;
-  color: #ffffff;
-  margin-bottom: 16px;
-}
-
-.features__text {
-  font-family: 'Manrope-Regular';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  text-align: center;
-  color: #ffffff;
-  max-width: 746px;
 }
 
 /* --- testimonials */
