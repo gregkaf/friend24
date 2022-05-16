@@ -3,7 +3,7 @@ $('.banner-stories__item-wrapper').slick({
   centerPadding: '20%',
   arrows: false,
   dots: true,
-  autoplay: false,
+  autoplay: true,
   speed: 1100,
   slidesToShow: 1,
   responsive: [

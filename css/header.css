@@ -267,4 +267,7 @@ main {
   .navigation__title {
     font-size: 31px;
   }
+  .orbit {
+    display: none;
+  }
 }
