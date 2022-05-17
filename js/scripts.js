@@ -7515,17 +7515,7 @@
     });
 });
 
-const fbPixelsEvent = () => fbq('trackCustom', 'Add to Wishlist');
-
-const whatToDownloadAppBtn = document.getElementById(
-  'what-to-download-app-btn'
-);
-whatToDownloadAppBtn.onclick = fbPixelsEvent;
-
-const navDownloadAppBtn = document.getElementById('nav-downloa-app-btn');
-navDownloadAppBtn.onclick = fbPixelsEvent;
-
-$('#nav-contact-us').click(function () {
+$('#nav-contact-us').on('click', function () {
   $([document.documentElement, document.body]).animate(
     {
       scrollTop: $('.in-touch').offset().top,
@@ -7534,7 +7524,7 @@ $('#nav-contact-us').click(function () {
   );
 });
 
-$('#nav-feature').click(function () {
+$('#nav-feature').on('click', function () {
   $([document.documentElement, document.body]).animate(
     {
       scrollTop: $('.features').offset().top,
@@ -7543,7 +7533,7 @@ $('#nav-feature').click(function () {
   );
 });
 
-$('.navigation__mobile-menu-features').click(function () {
+$('.navigation__mobile-menu-features').on('click', function () {
   $([document.documentElement, document.body]).animate(
     {
       scrollTop: $('.how-it').offset().top,
@@ -7552,7 +7542,7 @@ $('.navigation__mobile-menu-features').click(function () {
   );
 });
 
-$('#nav-about').click(function () {
+$('#nav-about').on('click', function () {
   $([document.documentElement, document.body]).animate(
     {
       scrollTop: $('.how-it').offset().top,
@@ -7562,7 +7552,7 @@ $('#nav-about').click(function () {
 });
 
 // --------------------------------------------------------
-$('.navigation__mobile-menu-about').click(function () {
+$('.navigation__mobile-menu-about').on('click', function () {
   $([document.documentElement, document.body]).animate(
     {
       scrollTop: $('.how-it').offset().top,
@@ -7571,7 +7561,7 @@ $('.navigation__mobile-menu-about').click(function () {
   );
 });
 
-$('.navigation__mobile-menu-contact-us').click(function () {
+$('.navigation__mobile-menu-contact-us').on('click', function () {
   $([document.documentElement, document.body]).animate(
     {
       scrollTop: $('.in-touch').offset().top,
@@ -7581,17 +7571,10 @@ $('.navigation__mobile-menu-contact-us').click(function () {
 });
 
 // burger >>
-// const whatToDownloadAppBtn = $('.navigation__mobile-menu');
-$('.navigation__burger').click(function () {
+$('.navigation__burger').on('click', function () {
   $('.navigation__mobile-menu').toggleClass('show__mobile-menu');
   $('.navigation__close').toggleClass('navigation__show');
-  // $('.navigation__burger').toggleClass('navigation__burger-hide');
 });
-
-// $('.navigation__burger').click(function () {
-//   $('.navigation__mobile-menu').toggleClass('show__mobile-menu');
-// });
-
 // << burger
 
 // facebook-pixels
@@ -7619,3 +7602,47 @@ $('.navigation__burger').click(function () {
 
 fbq('init', '553065442852678');
 fbq('track', 'PageView');
+
+$('#what-to-download-app-btn').on('click', function () {
+  bq('trackCustom', 'Add to Wishlist');
+});
+
+$('#nav-downloa-app-btn').on('click', function () {
+  bq('trackCustom', 'Add to Wishlist');
+});
+
+$('#footer__link-contact').on('click', function () {
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $('.in-touch').offset().top,
+    },
+    2000
+  );
+});
+
+$('#footer__link-features').on('click', function () {
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $('.features').offset().top,
+    },
+    2000
+  );
+});
+
+$('#footer__link-about').on('click', function () {
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $('.how-it').offset().top,
+    },
+    2000
+  );
+});
+
+$('#footer__link-download').on('click', function () {
+  $([document.documentElement, document.body]).animate(
+    {
+      scrollTop: $('.what-to').offset().top,
+    },
+    2000
+  );
+});

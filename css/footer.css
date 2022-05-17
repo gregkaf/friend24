@@ -16,6 +16,10 @@ footer {
   color: #ffffff;
 }
 
+.footer__link {
+  cursor: pointer;
+}
+
 .footer__sub {
   text-align: center;
   position: relative;
